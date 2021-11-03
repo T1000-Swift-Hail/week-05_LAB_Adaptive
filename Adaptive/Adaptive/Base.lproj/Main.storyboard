@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19162" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19144"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Adaptive" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="shopping" translatesAutoresizingMaskIntoConstraints="NO" id="CqB-x2-tww">
+                                <rect key="frame" x="0.0" y="44" width="414" height="306"/>
+                            </imageView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="43" translatesAutoresizingMaskIntoConstraints="NO" id="Dgg-XF-NSX">
+                                <rect key="frame" x="10" y="360" width="394" height="145.5"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Welcom To Our Shop" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9rN-Vz-Arh">
+                                        <rect key="frame" x="117" y="0.0" width="160.5" height="20.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="14" translatesAutoresizingMaskIntoConstraints="NO" id="Kub-r6-yNx">
+                                        <rect key="frame" x="20" y="63.5" width="354" height="82"/>
+                                        <subviews>
+                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="User Name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ENE-iq-qvu">
+                                                <rect key="frame" x="0.0" y="0.0" width="354" height="34"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits"/>
+                                            </textField>
+                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="PassWord" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="67d-2S-AHN">
+                                                <rect key="frame" x="0.0" y="48" width="354" height="34"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits"/>
+                                            </textField>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="Kub-r6-yNx" firstAttribute="leading" secondItem="Dgg-XF-NSX" secondAttribute="leading" constant="20" id="in4-HQ-qrd"/>
+                                    <constraint firstAttribute="trailing" secondItem="Kub-r6-yNx" secondAttribute="trailing" constant="20" id="nzg-fQ-Ktp"/>
+                                </constraints>
+                            </stackView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OZd-UI-qtj">
+                                <rect key="frame" x="311" y="831" width="83" height="31"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" image="rectangle.portrait.and.arrow.right" catalog="system" title="Login"/>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" name="Background Color"/>
+                        <color key="tintColor" name="Tint Color"/>
+                        <constraints>
+                            <constraint firstItem="OZd-UI-qtj" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="1Wi-Z2-MsG"/>
+                            <constraint firstItem="CqB-x2-tww" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="1fL-qr-gQZ"/>
+                            <constraint firstItem="Dgg-XF-NSX" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="10" id="CPc-bJ-pTU"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="CqB-x2-tww" secondAttribute="bottom" constant="512" id="GSP-5d-avk"/>
+                            <constraint firstItem="CqB-x2-tww" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="OG3-GJ-Sif"/>
+                            <constraint firstItem="CqB-x2-tww" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="TGL-rm-9Wm"/>
+                            <constraint firstItem="Dgg-XF-NSX" firstAttribute="top" secondItem="CqB-x2-tww" secondAttribute="bottom" constant="10" id="TYQ-Ec-NsB"/>
+                            <constraint firstItem="CqB-x2-tww" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="VLO-qF-Cul"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Dgg-XF-NSX" secondAttribute="trailing" constant="10" id="Xel-mf-8TV"/>
+                            <constraint firstItem="CqB-x2-tww" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="ldz-ks-OsF"/>
+                            <constraint firstItem="CqB-x2-tww" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="oDm-Ml-viB"/>
+                            <constraint firstItem="CqB-x2-tww" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="rHy-w5-OrR"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="OZd-UI-qtj" secondAttribute="trailing" constant="20" id="yfc-6f-cXc"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="34.782608695652179" y="97.767857142857139"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="rectangle.portrait.and.arrow.right" catalog="system" width="128" height="108"/>
+        <image name="shopping" width="3200" height="2133"/>
+        <namedColor name="Background Color">
+            <color red="0.84699999999999998" green="0.84699999999999998" blue="0.84699999999999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="Tint Color">
+            <color red="0.28000000000000003" green="0.223" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>
