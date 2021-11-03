@@ -3,6 +3,7 @@
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19144"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -54,7 +55,7 @@
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" image="iphone.and.arrow.forward" catalog="system" title="Login">
                                     <fontDescription key="titleFontDescription" type="system" weight="semibold" pointSize="19"/>
-                                    <color key="baseForegroundColor" red="0.16674873232841492" green="0.09161975234746933" blue="0.56773412227630615" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="baseForegroundColor" name="TintColor"/>
                                 </buttonConfiguration>
                             </button>
                         </subviews>
@@ -84,6 +85,9 @@
     <resources>
         <image name="1" width="3200" height="2133"/>
         <image name="iphone.and.arrow.forward" catalog="system" width="108" height="128"/>
+        <namedColor name="TintColor">
+            <color red="0.28000000000000003" green="0.223" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
