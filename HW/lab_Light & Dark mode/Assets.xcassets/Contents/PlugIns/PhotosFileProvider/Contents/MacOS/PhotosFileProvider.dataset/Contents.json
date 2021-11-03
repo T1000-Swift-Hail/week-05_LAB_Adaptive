@@ -1,0 +1,12 @@
+{
+  "data" : [
+    {
+      "filename" : "PhotosFileProvider",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

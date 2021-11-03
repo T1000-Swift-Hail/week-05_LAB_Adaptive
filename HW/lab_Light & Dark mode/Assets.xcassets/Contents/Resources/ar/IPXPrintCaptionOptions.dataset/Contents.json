@@ -1,0 +1,12 @@
+{
+  "data" : [
+    {
+      "filename" : "IPXPrintCaptionOptions.strings",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

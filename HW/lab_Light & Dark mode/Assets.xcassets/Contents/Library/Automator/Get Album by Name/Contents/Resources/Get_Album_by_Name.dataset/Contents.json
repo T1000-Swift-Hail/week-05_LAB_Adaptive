@@ -1,0 +1,12 @@
+{
+  "data" : [
+    {
+      "filename" : "Get_Album_by_Name.scpt",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

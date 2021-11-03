@@ -1,0 +1,12 @@
+{
+  "data" : [
+    {
+      "filename" : "Get_Contents_of_Favorites_Album.scpt",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

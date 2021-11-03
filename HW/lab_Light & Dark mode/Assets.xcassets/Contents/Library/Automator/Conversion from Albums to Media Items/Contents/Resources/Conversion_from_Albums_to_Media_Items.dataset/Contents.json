@@ -1,0 +1,12 @@
+{
+  "data" : [
+    {
+      "filename" : "Conversion_from_Albums_to_Media_Items.scpt",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

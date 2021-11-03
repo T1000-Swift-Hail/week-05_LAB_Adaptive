@@ -1,0 +1,12 @@
+{
+  "data" : [
+    {
+      "filename" : "SummaryContainerView.nib",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

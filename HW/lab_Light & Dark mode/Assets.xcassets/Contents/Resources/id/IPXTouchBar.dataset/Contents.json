@@ -1,0 +1,12 @@
+{
+  "data" : [
+    {
+      "filename" : "IPXTouchBar.strings",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

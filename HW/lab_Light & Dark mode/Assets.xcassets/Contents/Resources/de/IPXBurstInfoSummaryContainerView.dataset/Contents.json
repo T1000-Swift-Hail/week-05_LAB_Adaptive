@@ -1,0 +1,12 @@
+{
+  "data" : [
+    {
+      "filename" : "IPXBurstInfoSummaryContainerView.strings",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "data" : [
+    {
+      "filename" : "IPXAlbumInfoSummaryContainerView.strings",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

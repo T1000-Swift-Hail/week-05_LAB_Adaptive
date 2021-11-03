@@ -1,0 +1,12 @@
+{
+  "data" : [
+    {
+      "filename" : "CPAnalyticsConfig-PhotoPicker.json",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
