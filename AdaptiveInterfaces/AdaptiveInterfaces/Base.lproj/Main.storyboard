@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19162" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19144"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="AdaptiveInterfaces" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="1" translatesAutoresizingMaskIntoConstraints="NO" id="ERM-eM-WAV">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                            </imageView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" alignment="center" spacing="100" translatesAutoresizingMaskIntoConstraints="NO" id="C6v-s4-KlU">
+                                <rect key="frame" x="30" y="224" width="354" height="208"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Welcome to Our Shop" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XVV-cL-tL4">
+                                        <rect key="frame" x="51" y="0.0" width="252" height="30"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="25"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalCentering" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="D3O-4u-S6j">
+                                        <rect key="frame" x="40" y="130" width="274" height="78"/>
+                                        <subviews>
+                                            <textField opaque="NO" alpha="0.84999999999999998" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="User Name..." textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="KQM-nA-oA2">
+                                                <rect key="frame" x="0.0" y="0.0" width="274" height="34"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits"/>
+                                            </textField>
+                                            <textField opaque="NO" alpha="0.84999999999999998" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password...." textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="oKF-B7-nQq">
+                                                <rect key="frame" x="0.0" y="44" width="274" height="34"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits"/>
+                                            </textField>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="D3O-4u-S6j" firstAttribute="leading" secondItem="C6v-s4-KlU" secondAttribute="leading" constant="40" id="A0e-04-bTN"/>
+                                    <constraint firstAttribute="trailing" secondItem="D3O-4u-S6j" secondAttribute="trailing" constant="40" id="LgQ-Tq-565"/>
+                                </constraints>
+                            </stackView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4eB-ZM-FyG">
+                                <rect key="frame" x="162.5" y="487" width="89.5" height="37"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" image="iphone.and.arrow.forward" catalog="system" title="Login">
+                                    <fontDescription key="titleFontDescription" type="system" weight="semibold" pointSize="19"/>
+                                    <color key="baseForegroundColor" red="0.16674873232841492" green="0.09161975234746933" blue="0.56773412227630615" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </buttonConfiguration>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="C6v-s4-KlU" secondAttribute="trailing" constant="30" id="40C-nD-mXB"/>
+                            <constraint firstItem="4eB-ZM-FyG" firstAttribute="top" secondItem="C6v-s4-KlU" secondAttribute="bottom" constant="55" id="9i1-6V-ytF"/>
+                            <constraint firstAttribute="bottom" secondItem="ERM-eM-WAV" secondAttribute="bottom" id="Bm9-3Y-fq8"/>
+                            <constraint firstItem="ERM-eM-WAV" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="DFt-WV-obp"/>
+                            <constraint firstItem="4eB-ZM-FyG" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="NCV-eS-F05"/>
+                            <constraint firstItem="C6v-s4-KlU" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="180" id="RQA-Cw-Urn"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="ERM-eM-WAV" secondAttribute="trailing" id="grc-tS-0P3"/>
+                            <constraint firstItem="ERM-eM-WAV" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="zYi-Ib-WUD"/>
+                            <constraint firstItem="C6v-s4-KlU" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="30" id="zqL-Yh-qDQ"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="stackViews" destination="C6v-s4-KlU" id="o3w-gY-xTp"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="18.840579710144929" y="65.625"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="1" width="3200" height="2133"/>
+        <image name="iphone.and.arrow.forward" catalog="system" width="108" height="128"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
