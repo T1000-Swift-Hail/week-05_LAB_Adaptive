@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19162" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="dark"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19144"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Shoping" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="shopping-dark" translatesAutoresizingMaskIntoConstraints="NO" id="elp-Cd-HLt">
+                                <rect key="frame" x="20" y="94" width="374" height="253.5"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="253.5" id="Qjs-J1-vdv"/>
+                                    <constraint firstAttribute="width" constant="374" id="YKp-zp-NZ2"/>
+                                </constraints>
+                            </imageView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="83" translatesAutoresizingMaskIntoConstraints="NO" id="8CY-JW-sxx">
+                                <rect key="frame" x="20" y="377.5" width="374" height="403"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Welcom To Our Shop" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="J2N-mI-gOh">
+                                        <rect key="frame" x="65" y="0.0" width="244.5" height="40"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="40" id="4Dn-TU-lmi"/>
+                                            <constraint firstAttribute="width" constant="244.5" id="ECI-XP-5s6"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="27"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="User Name.." textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="8XQ-w1-yWJ">
+                                        <rect key="frame" x="87" y="123" width="200" height="40"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="40" id="0la-3s-Pcl"/>
+                                            <constraint firstAttribute="width" constant="200" id="DUN-fv-lY5"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="iUv-qc-cHc">
+                                        <rect key="frame" x="87" y="246" width="200" height="34"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="200" id="NYG-0C-kqR"/>
+                                            <constraint firstAttribute="height" constant="40" id="fyl-zp-ppZ"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1AK-GD-I1Y">
+                                        <rect key="frame" x="137" y="363" width="100" height="40"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="40" id="OTp-03-Ulc"/>
+                                            <constraint firstAttribute="width" constant="100" id="UAq-mt-0FP"/>
+                                        </constraints>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" image="rectangle.portrait.and.arrow.right" catalog="system" title="Login"/>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemGray5Color"/>
+                        <constraints>
+                            <constraint firstItem="8CY-JW-sxx" firstAttribute="top" secondItem="elp-Cd-HLt" secondAttribute="bottom" constant="30" id="2JJ-lu-Bp4"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="8CY-JW-sxx" secondAttribute="bottom" constant="30" id="3tX-Gv-f90"/>
+                            <constraint firstItem="8CY-JW-sxx" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="6qS-l6-7zA"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="8CY-JW-sxx" secondAttribute="bottom" constant="33" id="Afp-gz-Nez"/>
+                            <constraint firstItem="8CY-JW-sxx" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="Nah-fl-wZ5"/>
+                            <constraint firstItem="8CY-JW-sxx" firstAttribute="top" secondItem="elp-Cd-HLt" secondAttribute="bottom" constant="72.5" id="PQ8-aD-uuA"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="8CY-JW-sxx" secondAttribute="trailing" constant="20" id="TQl-8g-eoT"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="elp-Cd-HLt" secondAttribute="trailing" constant="20" id="bQB-yr-HE7"/>
+                            <constraint firstItem="elp-Cd-HLt" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="50" id="dHs-6U-Trv"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="8CY-JW-sxx" secondAttribute="trailing" constant="54.5" id="lr3-r0-EMt"/>
+                            <constraint firstItem="8CY-JW-sxx" firstAttribute="top" secondItem="elp-Cd-HLt" secondAttribute="bottom" constant="30" id="oNZ-Hq-enJ"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="8CY-JW-sxx" secondAttribute="trailing" constant="20" id="rJq-8z-pjX"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="elp-Cd-HLt" secondAttribute="trailing" constant="20" id="saa-Kv-3wO"/>
+                            <constraint firstItem="elp-Cd-HLt" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="sr8-9N-osM"/>
+                            <constraint firstItem="elp-Cd-HLt" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="50" id="ydJ-EI-48s"/>
+                            <constraint firstItem="elp-Cd-HLt" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="ygj-UJ-QsU"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="8CY-JW-sxx" secondAttribute="bottom" constant="33" id="z4K-WW-tXi"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-26.086956521739133" y="64.955357142857139"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="rectangle.portrait.and.arrow.right" catalog="system" width="128" height="108"/>
+        <image name="shopping-dark" width="3200" height="2133"/>
+        <systemColor name="systemGray5Color">
+            <color red="0.89803921568627454" green="0.89803921568627454" blue="0.91764705882352937" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
