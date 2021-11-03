@@ -10,12 +10,12 @@
 
 #### Colors values are :
 - Background Color : 
-Any : Red : 0.847 ,  Green : 0.847 , Blue: 0.847
-Dark : Red : 0.194 ,  Green : 0.264 , Blue: 0.386
+Any : Red : 0.847 ,  Green : 0.847 , Blue: 0.847   
+Dark : Red : 0.194 ,  Green : 0.264 , Blue: 0.386   
 
 - Tint Color:
-Any : Red : 0.280 ,  Green : 0.223 , Blue: 1.000
-Dark : Red : 0.432 ,  Green : 0.923 , Blue: 1.000
+Any : Red : 0.280 ,  Green : 0.223 , Blue: 1.000   
+Dark : Red : 0.432 ,  Green : 0.923 , Blue: 1.000   
 
 ### Your app should look similar to  this  in Light & Dark mode:
 
