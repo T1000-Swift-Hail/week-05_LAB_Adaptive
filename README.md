@@ -19,6 +19,6 @@ Dark : Red : 0.432 ,  Green : 0.923 , Blue: 1.000
 
 ### Your app should look similar to  this  in Light & Dark mode:
 
-![alt text]()
+![alt text](https://github.com/T1000-Swift-Hail/week-05_LAB_Adaptive/blob/main/Simulator%20Screen%20Shot%20-%20iPhone%2013%20-%202021-11-03%20at%2010.04.30.png?raw=true)
 
-![alt text]()
+![alt text](https://github.com/T1000-Swift-Hail/week-05_LAB_Adaptive/blob/main/Simulator%20Screen%20Shot%20-%20iPhone%2013%20-%202021-11-03%20at%2010.06.21.png?raw=true)
